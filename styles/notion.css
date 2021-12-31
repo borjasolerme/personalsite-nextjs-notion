@@ -25,6 +25,10 @@
   padding: 0.5em 2px;
 }
 
+.dark-mode .notion-text {
+  opacity: 0.8;
+}
+
 .notion-asset-caption {
   text-align: center;
 }
@@ -397,6 +401,7 @@
   overflow: visible;
   bottom: 32px;
   position: fixed;
+  justify-content: center !important;
   top: auto;
   max-width: 800px !important;
   height: 64px;
@@ -415,19 +420,23 @@
 
 .styles_toggleDarkMode__1icXg {
   transition: all .2s ease-in-out !important;
-  background-color: #f8fafc;
   border-radius: 12px;
+  color: hsl(0 0% 43.5%);
+  border: 1px solid hsl(0 0% 93.0%);
+  background-image: linear-gradient( 45deg, hsl(0 0% 97.3%), hsl(0 0% 90.9%), hsl(0 0% 97.3%), hsl(0 0% 90.9%) );
 }
 
 .styles_toggleDarkMode__1icXg:hover { 
-  transform: scale(2);
+  transform: scale(1.8);
+  color: hsl(0 0% 43.5%) !important;
 }
 
 .dark-mode .styles_toggleDarkMode__1icXg {
   transition: all .2s ease-in-out !important;
   background-color: #111;
   border-radius: 12px;
-  border: 1px solid #ffffff20;
+  border: 1px solid hsl(0 0% 15.8%);
+  background-image: linear-gradient( 45deg, hsl(0 0% 11.0%), hsl(0 0% 13.6%))
 }
 
 @media only screen and (max-width: 920px) {
@@ -436,4 +445,49 @@
       justify-content: space-between !important;
       align-items: center !important;
   }
+  .styles_footer__1r_c6 > div {
+    margin-top: 0px !important;
+  }
+}
+
+.styles_linkedin__1XGvB {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  transition: all .2s ease-in-out !important;
+  border-radius: 12px;
+  border: 1px solid hsl(0 0% 93.0%);
+  padding: 12px 12px;
+  color: hsl(0 0% 43.5%);
+  background-image: linear-gradient( 45deg, hsl(0 0% 97.3%), hsl(0 0% 90.9%), hsl(0 0% 97.3%), hsl(0 0% 90.9%) );
+}
+
+.dark-mode .styles_linkedin__1XGvB {
+  transition: all .2s ease-in-out !important;
+  background-color: #111;
+  border-radius: 12px;
+  border: 1px solid hsl(0 0% 15.8%);
+  background-image: linear-gradient( 45deg, hsl(0 0% 11.0%), hsl(0 0% 13.6%))
+}
+
+.styles_linkedin__1XGvB:hover {
+  transform: scale(1.8);
+  color: hsl(0 0% 43.5%) !important;
+}
+
+.vertical-bar {
+  margin: 0px 0px;
+  margin-right: 40px;
+  border: 0px;
+  width: 1px;
+  height: 48px;
+  background: hsl(0 0% 90.0%);
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.dark-mode .vertical-bar {
+  background: hsl(0 0% 15.8%);
 }
