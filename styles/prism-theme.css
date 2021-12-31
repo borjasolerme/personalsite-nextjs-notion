@@ -1,5 +1,18 @@
 /* prism theme adjustments */
 
+.blurry-gradient {
+  position: absolute;
+  top: -100px;
+  right: 0;
+  width: 560px;
+  height: 560px;
+  opacity: 0.4;
+}
+
+.dark-mode .blurry-gradient {
+  opacity: 0.2;
+}
+
 .notion-code {
   background-color: rgba(249, 250, 251, 1);
   border: 1px solid rgba(229, 231, 235, 1);
@@ -7,8 +20,12 @@
   padding: 1.5em !important;
 }
 
+.dark-mode {
+  --bg-color: #111111;
+}
+
 .dark-mode .notion-code {
-  background-color: rgba(17, 24, 39, 1);
+  background-color: red;
   border-color: rgba(55, 65, 81, 1);
 }
 .notion code {
