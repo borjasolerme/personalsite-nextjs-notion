@@ -157,7 +157,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
     if (tweet) {
       pageAside = <PageActions tweet={tweet} />
     }
-  } else {
   }
 
   return (
@@ -276,8 +275,10 @@ export const NotionPage: React.FC<types.PageProps> = ({
           />
         }
       />
-      <img src='https://res.cloudinary.com/teami/image/upload/v1640883955/Blur_background_wxjw1m.png' class="blurry-gradient"></img>
-
+      <img
+        src='https://res.cloudinary.com/teami/image/upload/v1640883955/Blur_background_wxjw1m.png'
+        className='blurry-gradient'
+      ></img>
     </TwitterContextProvider>
   )
 }

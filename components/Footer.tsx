@@ -1,7 +1,11 @@
 import * as React from 'react'
-import { FaPencilAlt, FaHome, FaLinkedin, FaUserAstronaut, FaBookmark } from 'react-icons/fa'
+import {
+  FaPencilAlt,
+  FaHome,
+  FaUserAstronaut,
+  FaBookmark
+} from 'react-icons/fa'
 import { IoSunnyOutline, IoMoonSharp } from 'react-icons/io5'
-import * as config from 'lib/config'
 
 import styles from './styles.module.css'
 
@@ -54,7 +58,7 @@ export const Footer: React.FC<{
       >
         <FaBookmark />
       </a>
-      <hr className="vertical-bar" />
+      <hr className='vertical-bar' />
 
       {hasMounted ? (
         <div className={styles.settings}>
@@ -67,7 +71,6 @@ export const Footer: React.FC<{
           </a>
         </div>
       ) : null}
-
     </footer>
   )
 }
