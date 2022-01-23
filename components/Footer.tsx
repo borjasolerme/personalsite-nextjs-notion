@@ -28,37 +28,29 @@ export const Footer: React.FC<{
     <footer className={styles.footer}>
       <a
         className={styles.linkedin}
-        href={`https://www.linkedin.com/in/${config.linkedin}`}
-        title={`LinkedIn ${config.author}`}
-        target='_blank'
-        rel='noopener noreferrer'
+        href={`https://www.borjasoler.me/`}
+        title={`Borja Soler | Website`}
       >
         <FaHome />
       </a>
       <a
         className={styles.linkedin}
-        href={`https://www.linkedin.com/in/${config.linkedin}`}
-        title={`LinkedIn ${config.author}`}
-        target='_blank'
-        rel='noopener noreferrer'
+        href={`https://www.borjasoler.me/writings`}
+        title={`Writings`}
       >
         <FaPencilAlt />
       </a>
       <a
         className={styles.linkedin}
-        href={`https://www.linkedin.com/in/${config.linkedin}`}
-        title={`LinkedIn ${config.author}`}
-        target='_blank'
-        rel='noopener noreferrer'
+        href={`https://www.borjasoler.me/about`}
+        title={`About me`}
       >
         <FaUserAstronaut />
       </a>
       <a
         className={styles.linkedin}
-        href={`https://www.linkedin.com/in/${config.linkedin}`}
-        title={`LinkedIn ${config.author}`}
-        target='_blank'
-        rel='noopener noreferrer'
+        href={`https://www.borjasoler.me/bookmarks`}
+        title={`Bookmarks`}
       >
         <FaBookmark />
       </a>

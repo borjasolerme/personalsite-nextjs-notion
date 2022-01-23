@@ -26,7 +26,7 @@
 }
 
 .dark-mode .notion-text {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .notion-asset-caption {
@@ -93,7 +93,7 @@
 .dark-mode .notion-collection-card {
   border-radius: 12px;
   border: none;
-  background-color: #ffffff10;
+  background-image: linear-gradient( 45deg, hsl(0 0% 11.0%), hsl(0 0% 13.6%));
   padding: 4px 8px;
   box-shadow: none;
 }
@@ -243,7 +243,7 @@
 
 .notion-link:hover {
   border-width: 3px;
-  border-image: linear-gradient(90.68deg, #ffda44 0.26%, #3b82f6 102.37%);
+  border-image: linear-gradient(90.68deg, #3b82f6 0.26%, #4b22bd 102.37%);
   border-image-slice: 1;
 }
 
@@ -282,6 +282,18 @@
     var(--bg-color),
     #f5b8d1 10.5%,
     #f9bcd3 85.29%,
+    var(--bg-color)
+  );
+}
+
+.notion-blue_background,
+.notion-gray_background {
+  /* light blue */
+  background-image: linear-gradient(
+    119deg,
+    var(--bg-color),
+    #adedfc 10.5%,
+    #adebfd 85.29%,
     var(--bg-color)
   );
 }
@@ -353,7 +365,7 @@
 
 /* if you don't want rounded page images, remove this */
 .notion-page-icon-wrapper img.notion-page-icon {
-  background: linear-gradient(to right, #ffda44, #3b82f6) border-box;
+  background: linear-gradient(to right, #3b82f6, #301480) border-box;
   border: 4px solid transparent;
   border-radius: 50%;
   width: 120px;
@@ -399,6 +411,7 @@
 
 .styles_footer__1r_c6 {
   overflow: visible;
+  overflow-x: visible !important;
   bottom: 32px;
   position: fixed;
   justify-content: center !important;
@@ -419,7 +432,7 @@
 }
 
 .styles_toggleDarkMode__1icXg {
-  transition: all .2s ease-in-out !important;
+  transition: all .3s ease-in-out !important;
   border-radius: 12px;
   color: hsl(0 0% 43.5%);
   border: 1px solid hsl(0 0% 93.0%);
@@ -432,7 +445,7 @@
 }
 
 .dark-mode .styles_toggleDarkMode__1icXg {
-  transition: all .2s ease-in-out !important;
+  transition: all .3s ease-in-out !important;
   background-color: #111;
   border-radius: 12px;
   border: 1px solid hsl(0 0% 15.8%);
@@ -456,7 +469,7 @@
   align-items: center;
   justify-content: center;
   margin-right: 40px;
-  transition: all .2s ease-in-out !important;
+  transition: all .3s ease-in-out !important;
   border-radius: 12px;
   border: 1px solid hsl(0 0% 93.0%);
   padding: 12px 12px;
@@ -465,7 +478,7 @@
 }
 
 .dark-mode .styles_linkedin__1XGvB {
-  transition: all .2s ease-in-out !important;
+  transition: all .3s ease-in-out !important;
   background-color: #111;
   border-radius: 12px;
   border: 1px solid hsl(0 0% 15.8%);
