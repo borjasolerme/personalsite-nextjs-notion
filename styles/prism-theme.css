@@ -1,11 +1,10 @@
 /* prism theme adjustments */
-
 .blurry-gradient {
   position: absolute;
-  top: -100px;
+  top: -420px;
   right: 0;
-  width: 560px;
-  height: 560px;
+  width: 1200px;
+  height: 800px;
   opacity: 0.4;
 }
 

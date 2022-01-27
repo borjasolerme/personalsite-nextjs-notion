@@ -276,7 +276,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         }
       />
       <img
-        src='https://res.cloudinary.com/teami/image/upload/v1640883955/Blur_background_wxjw1m.png'
+        src='https://i.imgur.com/r0VFFep.png'
         className='blurry-gradient'
       ></img>
     </TwitterContextProvider>
