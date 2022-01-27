@@ -108,7 +108,7 @@
 
 
 .notion-collection-card-cover img {
-  border-radius: 16px;
+  border-radius: 12px;
 }
 
 .notion-collection-card {
@@ -116,9 +116,8 @@
 }
 
 .notion-collection-card-cover {
-  border-radius: 16px;
+  border-radius: 12px;
   overflow: visible;
-  box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
 }
 
 .notion-collection-card-cover {
@@ -269,8 +268,8 @@
   background-image: linear-gradient(
     119deg,
     var(--bg-color),
-    #fff697 10.5%,
-    #fdf59d 85.29%,
+    #fef9c3 10.5%,
+    #fef9c3 85.29%,
     var(--bg-color)
   );
 }
@@ -293,20 +292,8 @@
   background-image: linear-gradient(
     119deg,
     var(--bg-color),
-    #adedfc 10.5%,
-    #adebfd 85.29%,
-    var(--bg-color)
-  );
-}
-
-.notion-blue_background,
-.notion-gray_background {
-  /* light blue */
-  background-image: linear-gradient(
-    119deg,
-    var(--bg-color),
-    #adedfc 10.5%,
-    #adebfd 85.29%,
+    hsl(0 0% 97.3%) 10.5%,
+    hsl(0 0% 90.9%) 85.29%,
     var(--bg-color)
   );
 }
@@ -357,7 +344,13 @@
   padding: 0;
   margin: 0;
   border-radius: 0;
-  background: none !important;
+  background-image: linear-gradient(
+    119deg,
+    var(--bg-color),
+    hsl(0 0% 15.8%) 10.5%,
+    hsl(0 0% 10.8%) 85.29%,
+    var(--bg-color)
+  );
 }
 
 .notion-block-f382a57807bc40779860eb079d0144f2 .lazy-image-wrapper {
@@ -367,6 +360,7 @@
 /* if you don't want rounded page images, remove this */
 .notion-page-icon-wrapper img.notion-page-icon {
   background: linear-gradient(to right, #3b82f6, #301480) border-box;
+  z-index: 1;
   border: 4px solid transparent;
   border-radius: 50%;
   width: 120px;
@@ -411,7 +405,6 @@
 }
 
 .styles_footer__1r_c6 {
-  overflow: visible;
   overflow-x: visible !important;
   bottom: 32px;
   position: fixed;
@@ -458,6 +451,7 @@
       flex-direction: row !important;
       justify-content: space-between !important;
       align-items: center !important;
+      overflow-x: auto !important;
   }
   .styles_footer__1r_c6 > div {
     margin-top: 0px !important;
