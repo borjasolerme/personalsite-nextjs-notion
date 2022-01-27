@@ -55,7 +55,7 @@
 .notion-gallery-grid {
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   grid-gap: 4vmin;
-  gap: 4vmin;
+  gap: 2vmin;
 }
 
 .notion-gallery-grid .notion-page-icon {
