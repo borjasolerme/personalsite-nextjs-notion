@@ -10,6 +10,7 @@
 .notion {
   --notion-max-width: 720px;
   --notion-header-height: 54px;
+  margin: 0 8px;
 }
 
 .notion-page {
@@ -56,6 +57,7 @@
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   grid-gap: 4vmin;
   gap: 2vmin;
+  z-index: 1;
 }
 
 .notion-gallery-grid .notion-page-icon {
@@ -533,3 +535,8 @@
 .notion-page-has-image-icon {
   padding-top: 112px !important;
 }
+
+.breadcrumbs {
+  overflow: hidden;
+}
+

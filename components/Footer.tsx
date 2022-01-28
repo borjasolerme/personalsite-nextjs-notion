@@ -6,6 +6,8 @@ import {
   FaBookmark
 } from 'react-icons/fa'
 import { IoSunnyOutline, IoMoonSharp } from 'react-icons/io5'
+import Tippy from '@tippyjs/react'
+import 'tippy.js/dist/tippy.css'
 
 import styles from './styles.module.css'
 
@@ -30,34 +32,42 @@ export const Footer: React.FC<{
 
   return (
     <footer className={styles.footer}>
-      <a
-        className={styles.linkedin}
-        href={`https://www.borjasoler.me/`}
-        title={`Borja Soler | Website`}
-      >
-        <FaHome />
-      </a>
-      <a
-        className={styles.linkedin}
-        href={`https://www.borjasoler.me/writings`}
-        title={`Writings`}
-      >
-        <FaPencilAlt />
-      </a>
-      <a
-        className={styles.linkedin}
-        href={`https://www.borjasoler.me/about`}
-        title={`About me`}
-      >
-        <FaUserAstronaut />
-      </a>
-      <a
-        className={styles.linkedin}
-        href={`https://www.borjasoler.me/bookmarks`}
-        title={`Bookmarks`}
-      >
-        <FaBookmark />
-      </a>
+      <Tippy content='Home'>
+        <a
+          className={styles.linkedin}
+          href={`https://www.borjasoler.me/`}
+          title={`Borja Soler | Website`}
+        >
+          <FaHome />
+        </a>
+      </Tippy>
+      <Tippy content='Writings'>
+        <a
+          className={styles.linkedin}
+          href={`https://www.borjasoler.me/writings`}
+          title={`Writings`}
+        >
+          <FaPencilAlt />
+        </a>
+      </Tippy>
+      <Tippy content='About me'>
+        <a
+          className={styles.linkedin}
+          href={`https://www.borjasoler.me/about`}
+          title={`About me`}
+        >
+          <FaUserAstronaut />
+        </a>
+      </Tippy>
+      <Tippy content='Bookmarks'>
+        <a
+          className={styles.linkedin}
+          href={`https://www.borjasoler.me/bookmarks`}
+          title={`Bookmarks`}
+        >
+          <FaBookmark />
+        </a>
+      </Tippy>
       <hr className='vertical-bar' />
 
       {hasMounted ? (
