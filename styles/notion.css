@@ -184,16 +184,7 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 4vmin;
     gap: 4vmin;
-  }
-  .styles_linkedin__1XGvB:hover {
-    transform: scale(1);
-    color: hsl(0 0% 43.5%) !important;
-  }
-  .styles_toggleDarkMode__1icXg:hover { 
-    transform: scale(1);
-    color: hsl(0 0% 43.5%) !important;
-  }
-  
+  }  
 }
 
 .notion .notion-page-icon-cover {
@@ -433,7 +424,6 @@
 
 .styles_footer__1r_c6 {
   overflow-x: visible !important;
-  overflow-y: hidden !important;
   bottom: 32px;
   position: fixed;
   justify-content: center !important;
@@ -462,8 +452,8 @@
 }
 
 .styles_toggleDarkMode__1icXg:hover { 
-  transform: scale(1.8);
   color: hsl(0 0% 43.5%) !important;
+  transform: scale(1.2);
 }
 
 .dark-mode .styles_toggleDarkMode__1icXg {
@@ -480,7 +470,6 @@
       justify-content: space-between !important;
       align-items: center !important;
       overflow-x: auto !important;
-      overflow-y: hidden !important;
   }
   .styles_footer__1r_c6 > div {
     margin-top: 0px !important;
@@ -510,7 +499,7 @@
 }
 
 .styles_linkedin__1XGvB:hover {
-  transform: scale(1.8);
+  transform: scale(1.2);
   color: hsl(0 0% 43.5%) !important;
 }
 
