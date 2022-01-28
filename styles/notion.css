@@ -439,6 +439,7 @@
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
   border: 1px solid hsl(0 0% 93.0%);
   padding: 8px 16px;
+  z-index: 10;
 }
 
 .dark-mode .styles_footer__1r_c6 {
