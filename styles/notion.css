@@ -424,6 +424,7 @@
 
 .styles_footer__1r_c6 {
   overflow-x: visible !important;
+  overflow-y: hidden !important;
   bottom: 32px;
   position: fixed;
   justify-content: center !important;
@@ -470,6 +471,15 @@
       justify-content: space-between !important;
       align-items: center !important;
       overflow-x: auto !important;
+      overflow-y: hidden !important;
+      width: 93% !important;
+      padding: 8px 16px !important;
+  }
+  .notion-page-no-cover {
+    margin-top: 0px !important;
+  }
+  .notion-title {
+    margin-bottom: 0px !important;
   }
   .styles_footer__1r_c6 > div {
     margin-top: 0px !important;
