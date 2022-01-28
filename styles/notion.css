@@ -156,7 +156,7 @@
 }
 
 .notion-hr {
-  margin: 2em 0;
+  margin: 0.5em 0;
 }
 
 @media only screen and (max-width: 920px) {
@@ -195,6 +195,7 @@
 .notion-title {
   display: block;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .notion-collection-column-title {
@@ -435,6 +436,7 @@
   border-radius: 20px;
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
   border: 1px solid hsl(0 0% 93.0%);
+  padding: 8px 16px;
 }
 
 .dark-mode .styles_footer__1r_c6 {
