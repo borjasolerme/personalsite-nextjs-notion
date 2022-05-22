@@ -43,6 +43,14 @@
   margin-bottom: 1em;
 }
 
+.notion-collection {
+  max-width: 100%;
+}
+
+img.notion-page-icon, svg.notion-page-icon {
+  display: none;
+}
+
 /* <-- Fix embedded video's size overflows its container */
 .notion-asset-wrapper-video > div,
 .notion-asset-wrapper-video video {
@@ -184,8 +192,12 @@
 
 .notion-title {
   display: block;
-  text-align: center;
+  text-align: left;
   margin-bottom: 0px;
+}
+
+.notion-collection-row-property .notion-property {
+  justify-content: left !important;
 }
 
 .notion-collection-column-title {
@@ -367,6 +379,12 @@
 }
 
 /* if you don't want rounded page images, remove this */
+.notion-page-icon-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
 .notion-page-icon-wrapper img.notion-page-icon {
   background: linear-gradient(to right, #3b82f6, #301480) border-box;
   z-index: 1;
