@@ -78,8 +78,16 @@ img.notion-page-icon, svg.notion-page-icon {
 
 .notion-gallery-grid .notion-page-title-text {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   white-space: unset;
+}
+
+.notion b {
+  font-weight: 500;
+}
+
+.notion-page-title-text {
+  font-weight: 500 !important;
 }
 
 .notion-gallery-grid .notion-collection-card-property {
@@ -455,7 +463,7 @@ img.notion-page-icon, svg.notion-page-icon {
   border: 1px solid hsl(0 0% 15.8%);
 }
 
-.styles_toggleDarkMode__1icXg {
+.styles_toggleDarkMode__QfgK_ {
   transition: all .3s ease-in-out !important;
   border-radius: 12px;
   color: hsl(0 0% 43.5%);
@@ -463,12 +471,12 @@ img.notion-page-icon, svg.notion-page-icon {
   background-image: linear-gradient( 45deg, hsl(0 0% 97.3%), hsl(0 0% 90.9%), hsl(0 0% 97.3%), hsl(0 0% 90.9%) );
 }
 
-.styles_toggleDarkMode__1icXg:hover { 
+.styles_toggleDarkMode__QfgK_:hover { 
   color: hsl(0 0% 43.5%) !important;
   transform: scale(1.2);
 }
 
-.dark-mode .styles_toggleDarkMode__1icXg {
+.dark-mode .styles_toggleDarkMode__QfgK_ {
   transition: all .3s ease-in-out !important;
   background-color: #111;
   border-radius: 12px;
