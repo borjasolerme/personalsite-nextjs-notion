@@ -20,8 +20,8 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
           <meta property='og:description' content={site.description} />
         </>
       )}
-
-      <meta name='theme-color' content='#EB625A' />
+      <script async src='https://cdn.splitbee.io/sb.js'></script>
+      <meta name='theme-color' content='#111111' />
       <meta property='og:type' content='website' />
     </Head>
   )
